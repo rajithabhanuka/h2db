@@ -1,0 +1,8 @@
+CREATE SCHEMA IF NOT EXISTS testdb;
+
+CREATE TABLE IF NOT EXISTS testdb.student(
+    id LONG PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INTEGER(2),
+    country VARCHAR(50)
+);
